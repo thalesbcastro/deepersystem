@@ -46,7 +46,7 @@ for i in w: # Elementos da minha lista
 # js = json.dumps(managers)
 # print(js)
 with open('managers.json', 'w') as fl:
-    json.dump(managers, fl)
+    json.dump(managers, fl, indent=2)
 
 with open('watchers.json', 'w') as fl:
-    json.dump(watchers, fl)
+    json.dump(watchers, fl, indent=2)
